@@ -234,7 +234,6 @@ async def pm_spoll_choker(msg):
         button = [[
                    InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
-        k = await msg.reply("I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ Tᴏ Tʜᴀᴛ. Dɪᴅ Yᴏᴜ Mᴇᴀɴ Aɴʏ Oɴᴇ Oғ Tʜᴇsᴇ?????", reply_markup=InlineKeyboardMarkup(btn), quote=True)
         await asyncio.sleep(30)
         return await k.delete()
     temp.PM_SPELL[str(msg.id)] = movielist
